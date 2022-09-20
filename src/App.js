@@ -26,6 +26,7 @@ function App() {
 
   const limpiar = (event) =>{
     setCliente({nombre:"",apellido:"",apodo:""})
+    setFormEnv(false);
   }
 
   return (
@@ -48,7 +49,7 @@ function App() {
           <button onClick={limpiar}>Limpiar</button>
         </form>
         {formularioEnv && (
-          <p>Datos: {`${cliente.nombre}`} {`${cliente.apellido}`} {`${cliente.apodo}`}</p>
+          <label><p>Datos: {`${cliente.nombre}`} {`${cliente.apellido}`} {`${cliente.apodo}`}</p></label>
         )}
       </main>
     </div>

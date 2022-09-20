@@ -1,11 +1,18 @@
 main {
-  background-color: bisque;
+  background-color: rgb(102, 102, 102);
   width: 100%;
   height: 100vh;
-  
 }
 
 .div, label {
   margin-left: 40%;
-  margin-bottom: 1px;
 }
+
+.div, input {
+  margin-left: 45%;
+}
+
+button {
+  margin-left: 45%;
+}
+
